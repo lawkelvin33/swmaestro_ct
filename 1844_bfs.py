@@ -30,3 +30,5 @@ def solution(maps):
     
     
     return -1
+
+## uses bfs (implemented by queue)
