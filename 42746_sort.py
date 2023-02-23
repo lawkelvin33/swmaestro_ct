@@ -21,3 +21,8 @@ def compare(a,b):
         return 0
 
 print(solution([3, 30, 34, 5, 9]))
+
+# ###def solution(numbers):  ###모범답안!!!
+#     numbers = list(map(str, numbers))
+#     numbers.sort(key=lambda x: x*3, reverse=True)
+#     return str(int(''.join(numbers))) ### 00 000 과같은 결과가 나올 경우에 어차피 0이기 때문에 str->int->str 변환 필요!!
